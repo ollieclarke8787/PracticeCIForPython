@@ -12,6 +12,11 @@ def test_func2():
     assert main.func2("Testing") == "Testin"
     assert main.func2("A") == ""
 
+def test_func2_more():
+    assert main.func2("Testing") == "Testin"
+    assert main.func2("A") == ""
+
+
 def test_bad_func1():
     #assert main.func1(2) == 5  # This will fail
     pass
